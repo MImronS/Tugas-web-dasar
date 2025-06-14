@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tokoku</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header atas */
+    .topbar {
+      background-color: black;
+      padding: 10px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .topbar a {
+      padding: 8px 15px;
+      color: white;
+      text-decoration: none;
+      margin-left: 10px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .topbar .register {
+      background-color: rgb(234, 195, 3);
+    }
+
+    .topbar .login {
+      background-color: dodgerblue;
+    }
+
+    /* Logo dan judul */
+    .header {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .header img {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .header span {
+      color: rgb(222, 159, 21);
+    }
+
+    /* Navigasi utama */
+    .navbar {
+      background-color: rgb(211, 161, 10);
+      padding: 10px 0;
+    }
+
+    .menu {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .menu li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .menu li a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <a href="#" class="register">Registrasi</a>
+    <a href="#" class="login">Login</a>
+  </div>
+
+  <!-- Header dengan logo -->
+  <div class="header">
+    <img src="logo imron.jpg" alt="Logo imron">
+    <h1><span style="color:rgb(243, 194, 17)">Cepon</span><span>Store</span></h1>
+  </div>
+
+  <!-- Navigasi -->
+  <nav class="navbar">
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Buku</a></li>
+      <li><a href="#">Majalah</a></li>
+      <li><a href="#">Koran</a></li>
+    </ul>
+  </nav>
+
+   <!-- Konten -->
+  <main style="padding: 20px;">
+
+    <!-- HOME -->
+    <div id="home" class="section">
+        <table border="1" cellpadding="10">
+        <h2> Buku Best Seller</h2>
+        <tr>
+          <td align="center">
+              <img src="buku.jpeg" alt="produk kreatif dan kewirausahaan" width="120"><br>
+
+              <font color="red"><b>Rp53.000</b></font><br>
+            </td>
+            <td align="center">
+              <img src="Buku imron3.jpg" alt="BOBO teman bermain dan belajar" width="120"><br>
+              <strong>Apollo11</strong><br>
+              BOBO teman bermain dan belajar<br>
+              <font color="red"><b>Rp75.000</b></font><br>
+              <s>Rp100.000</s><br>
+              <font color="red">25%</font>
+            </td>
+            <td align="center">
+              <img src="Buku imron4.jpg" alt="Tribun jogja" width="120"><br>
+              <strong></strong><br>
+              Tribun jogja<br>
+              <font color="red"><b>Rp55.250</b></font><br>
+              <s>Rp65.000</s><br>
+              <font color="red">15%</font>
+            </td>
+        </table>
+      </tr>
+      <table border="1" cellpadding="10">
+        <tr>
+        <h2>Majalah Best Seller</h2>
+        <td align="center">
+            <img src="Majalah imron1.jpg" alt="Tribun jogja" width="120"><br>
+            <strong></strong><br>
+            Tribun jogja<br>
+            <font color="red"><b>Rp55.250</b></font><br>
+            <s>Rp65.000</s><br>
+            <font color="red">15%</font>
+          </td>
+          <td align="center">
+            <img src="Majalah imron3.jpg" alt="BOBO teman bermain dan belajar" width="120"><br>
+            <strong>Apollo11</strong><br>
+            BOBO teman bermain dan belajar<br>
+            <font color="red"><b>Rp75.000</b></font><br>
+            <s>Rp100.000</s><br>
+            <font color="red">25%</font>
+          </td>
+          <td align="center">
+            <img src="Majalah imron2.jpg" alt="Seporsi Mie Ayam Sebelum Mati" width="120"><br>
+            <strong>Brian Khrisna</strong><br>
+            Seporsi Mie Ayam Sebelum Mati<br>
+            <font color="red"><b>Rp69.750</b></font><br>
+            <s>Rp93.000</s><br>
+            <font color="red">25%</font>
+          </td>
+    </table>
+      </div>
+    </tr>
+    <table border="1" cellpadding="10">
+     <h2>Koran Best Seller</h2>
+        <td align="center">
+            <img src="Koran imron1.jpg" alt="Tribun jogja" width="120"><br>
+            <strong></strong><br>
+            Tribun jogja<br>
+            <font color="red"><b>Rp55.250</b></font><br>
+            <s>Rp65.000</s><br>
+            <font color="red">15%</font>
+          </td>
+          <td align="center">
+            <img src="Koran imron2.jpg" alt="BOBO teman bermain dan belajar" width="120"><br>
+            <strong>Apollo11</strong><br>
+            BOBO teman bermain dan belajar<br>
+            <font color="red"><b>Rp75.000</b></font><br>
+            <s>Rp100.000</s><br>
+            <font color="red">25%</font>
+          </td>
+          <td align="center">
+            <img src="Koran imron3.jpg" alt="Seporsi Mie Ayam Sebelum Mati" width="120"><br>
+            <strong>Brian Khrisna</strong><br>
+            Seporsi Mie Ayam Sebelum Mati<br>
+            <font color="red"><b>Rp69.750</b></font><br>
+            <s>Rp93.000</s><br>
+            <font color="red">25%</font>
+          </td>
+    </table>
+      </div>
+    </tr>
+
+
+</body>
+</html>

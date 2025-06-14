@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cepon Store - Toko Buku Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            display: flex;
+            margin: 20px;
+        }
+        .main-content {
+            flex: 3;
+            margin-right: 20px;
+        }
+        .sidebar {
+            flex: 1;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        .sidebar .ad {
+            background-color: #e0e0e0;
+            padding: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .best-sellers {
+            background-color: #e7e7e7;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .best-sellers ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .best-sellers li {
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Cepon Store - Toko Buku Online</h1>
+    </header>
+
+    <nav>
+        <a href="#" id="home-link">Home</a>
+        <a href="#" id="buku-link">Buku</a>
+        <a href="#" id="majalah-link">Majalah</a>
+        <a href="#" id="koran-link">Koran</a>
+    </nav>
+
+    <div class="content">
+        <div class="main-content" id="main-content">
+            <h2>Selamat datang di Cepon Store!</h2>
+            <p>Temukan koleksi buku, majalah, dan koran terbaik di toko buku online kami.</p>
+            
+            <!-- Best Sellers -->
+            <div class="best-sellers" id="best-sellers">
+                <h3>Best Seller</h3>
+                <ul>
+                    <li>Buku A - Rp 100.000</li>
+                    <li>Buku M - Rp 95.000</li>
+                    <li>Majalah H - Rp 30.000</li>
+                    <li>Buku D - Rp 90.000</li>
+                </ul>
+            </div>
+            <!-- Iklan Section -->
+            <div class="ad" id="advertisement">
+                <h3>IKLAN</h3>
+                <p>Promosi Buku Terbaru! Dapatkan diskon 20% untuk pembelian buku baru!</p>
+            </div>
+            
+        </div>
+
+        <!-- Sidebar Section -->
+        <div class="sidebar">
+            <h3>Menu Sampingan</h3>
+            <ul>
+                <li><a href="#">Produk Terlaris</a></li>
+                <li><a href="#">Promo</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Cepon Store. Semua hak cipta dilindungi.</p>
+    </footer>
+
+</body>
+</html>

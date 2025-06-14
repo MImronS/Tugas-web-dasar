@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Belajar Navigasi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header atas */
+    .topbar {
+      background-color: black;
+      padding: 10px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .topbar a {
+      padding: 8px 15px;
+      color: white;
+      text-decoration: none;
+      margin-left: 10px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .topbar .register {
+      background-color: orange;
+    }
+
+    .topbar .login {
+      background-color: orange;
+    }
+
+    /* Logo dan judul */
+    .header {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .header img {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .header span {
+      color: orange;
+    }
+
+    /* Navigasi utama */
+    .navbar {
+      background-color: orange;
+      padding: 10px 0;
+    }
+
+    .menu {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .menu li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .menu li a:hover {
+      text-decoration: underline;
+    }
+
+    <style>
+  /* Dropdown Multilevel */
+  nav .menu li {
+    position: relative;
+  }
+
+  nav .menu li ul {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 0;
+    margin: 0;
+    min-width: 160px;
+    z-index: 999;
+  }
+
+  nav .menu li:hover > ul {
+    display: block;
+  }
+
+  nav .menu li ul li a {
+    background-color: #f9f9f9;
+    color: black;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+  }
+
+  nav .menu li ul li a:hover {
+    background-color: #ddd;
+  }
+
+  /* Submenu ke kanan */
+  nav .menu li ul li {
+    position: relative;
+  }
+
+  nav .menu li ul li ul {
+    top: 0;
+    left: 100%;
+  }
+</style>
+
+  </style>
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <a href="#" class="register">Registrasi</a>
+    <a href="#" class="login">Login</a>
+  </div>
+
+  <!-- Header dengan logo -->
+  <div class="header">
+    <img src="logo.jpg" alt="Logo Cepon Store">
+    <h1><span style="color:orange">Cepon</span><span>Store</span></h1>
+  </div>
+
+  <!-- Navigasi -->
+  <nav class="navbar">
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+     
+          <li>  
+            <a href="#">Buku</a>  
+            <ul>  
+              <li>  
+                <a href="#">Fiksi</a>  
+                <ul>  
+                  <li><a href="#">Novel</a></li>  
+                  <li><a href="#">Komik</a></li>  
+                </ul>  
+              </li>  
+              <li>  
+                <a href="#">Non Fiksi</a>  
+                <ul>  
+                  <li><a href="#">Novel</a></li>  
+                  <li><a href="#">Komik</a></li>  
+                </ul>  
+              </li>  
+            </ul>  
+          </li> 
+
+          <li>  
+            <a href="#">Majalah</a>  
+            <ul>  
+              <li>  
+                <a href="#">Fiksi</a>  
+                <ul>  
+                  <li><a href="#">Novel</a></li>  
+                  <li><a href="#">Komik</a></li>  
+                </ul>  
+              </li>  
+              <li>  
+                <a href="#">Non Fiksi</a>  
+                <ul>  
+                  <li><a href="#">Novel</a></li>  
+                  <li><a href="#">Komik</a></li>  
+                </ul>  
+              </li>  
+            </ul>  
+          </li> 
+
+
+        
+          <li>  
+            <a href="#">Koran
+            </a>  
+            <ul>  
+              <li>  
+                <a href="#">Fiksi</a>  
+                <ul>  
+                  <li><a href="#">Novel</a></li>  
+                  <li><a href="#">Komik</a></li>  
+                </ul>  
+              </li>  
+              <li>  
+                <a href="#">Non Fiksi</a>  
+                <ul>  
+                  <li><a href="#">Novel</a></li>  
+                  <li><a href="#">Komik</a></li>  
+                </ul>  
+              </li>  
+            </ul>  
+          </li> 
+
+    </ul>
+  </nav>
+
+</Div>
+</Nav>
+
+<hr>
+<h2 class="title">Buku Best Seller</h2>
+<div class="produk">
+    <div class="produk2">
+        <img src="buku.jpeg">
+        <p>Produk Kreatif dan Kewirausahaan</p>
+        <p><b>Rp53.000</b></p>
+    </div>
+    <div class="produk2">
+        <img src="i.jpeg">
+        <p>Sastra Daerah</p>
+        <p><b>Rp80.000</b></p>
+    </div>
+    <div class="produk2">
+        <img src="K.jpeg">
+        <p>Induk Ilmu Kejawen</p>
+        <p><b>Rp94.000</b></p>
+    </div>
+    <div class="produk2">
+        <img src="H.jpeg">
+        <p>Panduan Adab</p>
+        <p><b>Rp33.000</b></p>
+    </div>
+</div>
+
+<h2 class="title">Majalah Best Seller</h2>
+<div class="produk">
+    <div class="produk2">
+        <img src="M.jpeg">
+        <p>Adab Berteman</p>
+        <p><b>Rp25.000</b></p>
+    </div>
+    <div class="produk2">
+        <img src="E.jpeg">
+        <p>Bobo</p>
+        <p><b>Rp21.000</b></p>
+    </div>
+    <div class="produk2">
+        <img src="N.jpeg">
+        <p>Hidro Politik</p>
+        <p><b>Rp17.000</b></p>
+    </div>
+    <div class="produk2">
+        <img src="A.jpeg">
+        <p>Kejora Imut</p>
+        <p><b>Rp10.000</b></p>
+    </div>
+</div>
+
+</body>
+</html>
